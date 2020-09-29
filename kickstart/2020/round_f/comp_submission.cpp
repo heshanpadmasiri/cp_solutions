@@ -31,18 +31,17 @@ void solve() {
       cout << e << ' ';
     }
   }
-}
 
-int main() {
-  _fast_;
-  int t;
-  cin >> t;
-  int i = 1;
-  while (t--) {
-    cout << "Case #" << i << ": ";
-    solve();
-    cout << endl;
-    i++;
+  int main() {
+    _fast_;
+    int t;
+    cin >> t;
+    int i = 1;
+    while (t--) {
+      cout << "Case #" << i << ": ";
+      solve();
+      cout << endl;
+      i++;
+    }
+    return 0;
   }
-  return 0;
-}
